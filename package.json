@@ -19,6 +19,7 @@
     "@microsoft/sp-dialog": "1.9.1",
     "@types/es6-promise": "0.0.33",
     "@types/webpack-env": "1.13.1",
+    "node-sp-auth": "^2.5.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
