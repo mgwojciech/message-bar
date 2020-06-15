@@ -1,4 +1,4 @@
-/// <reference types="mocha" />
+/// <reference types="jest" />
 /// <reference types="sinon" />
 
 import * as React from 'react';
@@ -12,7 +12,7 @@ declare const sinon;
 configure({ adapter: new Adapter() });
 
 describe("<MessageBarWithNavigationComponent />", () => {
-    it("Should render empty", () => {
+    test("Should render empty", () => {
         let element = mount(<MessageBarWithNavigationComponent Messages={[]} />)
         let innerText = element.find("div").text();
 

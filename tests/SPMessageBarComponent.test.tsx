@@ -1,4 +1,4 @@
-/// <reference types="mocha" />
+/// <reference types="sinon" />
 /// <reference types="jest" />
 
 import * as React from 'react';

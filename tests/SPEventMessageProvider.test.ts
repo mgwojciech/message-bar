@@ -1,4 +1,4 @@
-/// <reference types="mocha" />
+/// <reference types="jest" />
 import { assert } from 'chai';
 import { MockHttpClient } from './../src/logic/utils/MockHttpClient';
 import { SPEventMessageProvider } from "./../src/logic/dataProvider/SPEventMessageProvider";
